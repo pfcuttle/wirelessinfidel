@@ -1,0 +1,17 @@
+Name:               infidel
+Version:            0.1
+Synopsis:           Quick hack for very basic network management.
+Description:        A small and quick hack made to replace wicd, as it shows
+                    an obscure bug that makes the keyboard unusable.
+License:            BSD3
+License-file:       LICENSE
+Author:             Alexandre Boily
+Maintainer:         alexandreboily@gmail.com
+Stability:          Experimental
+Category:           Network
+Build-type:         Simple
+Cabal-version:      >=1.6
+
+Executable infidel
+  Main-is:          Main.hs
+  Build-depends:    base >= 4.2, gtk, process
